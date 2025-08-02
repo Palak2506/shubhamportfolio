@@ -1,10 +1,37 @@
 const About = () => {
-  const skills = [
-    'B2B Sales Outreach', 'Cold Calling & Demo Scheduling', 'Lead Qualification (BANT)',
-    'Pipeline Management', 'Salesforce, Hubspot, Zoho CRM', 'KPI Execution',
-    'Objection Handling', 'Excel & Data Accuracy', 'Sales Forecasting',
-    'Client Engagement & Management', 'Research & Market Analysis', 'Negotiation Skills',
-    'Sales Metrics Analysis', 'Revenue Growth Contribution', 'Multichannel Outreach'
+  const expertiseCategories = [
+    {
+      title: "Sales & Business Development",
+      skills: [
+        'B2B Sales Outreach',
+        'Cold Calling & Demo Scheduling', 
+        'Lead Qualification (BANT)',
+        'Pipeline Management',
+        'Objection Handling',
+        'Negotiation Skills',
+        'Revenue Growth Contribution',
+        'Multichannel Outreach'
+      ]
+    },
+    {
+      title: "CRM & Technology",
+      skills: [
+        'Salesforce CRM',
+        'HubSpot CRM', 
+        'Zoho CRM',
+        'Excel & Data Accuracy',
+        'KPI Execution'
+      ]
+    },
+    {
+      title: "Analytics & Strategy",
+      skills: [
+        'Sales Forecasting',
+        'Sales Metrics Analysis',
+        'Research & Market Analysis',
+        'Client Engagement & Management'
+      ]
+    }
   ];
 
   return (
@@ -17,45 +44,34 @@ const About = () => {
           <div className="w-20 h-1 bg-blue-500 mx-auto mb-8"></div>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div className="space-y-6">
-            <h3 className="text-2xl font-semibold text-white mb-4">
-              Professional Summary
-            </h3>
-            <p className="text-gray-300 leading-relaxed text-lg">
-              Result Driven Business Development Representative with 2+ years' success in B2B sales, 
-              lead conversion, and revenue generation. Orchestrated €750K+ new business through strategic, 
-              multichannel prospecting and stakeholder engagement across multiple industries.
-            </p>
-            <p className="text-gray-300 leading-relaxed text-lg">
-              Expert in pipeline management, CRM (Salesforce, HubSpot, Zoho), and sales forecasting. 
-              Collaborative team player, KPI-focused, and committed to continuous skill development.
-            </p>
-            <p className="text-gray-300 leading-relaxed text-lg">
-              A strategic leader adept at managing cross-functional teams, stakeholder communications, 
-              and technology evaluation to deliver measurable business improvements and operational excellence.
-            </p>
-          </div>
-
-          <div>
-            <h3 className="text-2xl font-semibold text-white mb-6">
-              Areas of Expertise
-            </h3>
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
-              {skills.map((skill, index) => (
-                <div
-                  key={index}
-                  className="bg-gray-700/50 backdrop-blur-sm rounded-lg p-3 border border-gray-600/30 hover:border-blue-400/50 transition-colors"
-                >
-                  <span className="text-gray-300 text-sm font-medium">{skill}</span>
+        {/* Areas of Expertise by Category */}
+        <div className="max-w-6xl mx-auto mb-16">
+          <h3 className="text-2xl font-semibold text-white mb-8 text-center">
+            Areas of Expertise
+          </h3>
+          <div className="grid lg:grid-cols-3 gap-8">
+            {expertiseCategories.map((category, index) => (
+              <div key={index} className="bg-gray-700/50 backdrop-blur-sm rounded-lg p-6 border border-gray-600/30 hover:border-blue-400/50 transition-colors">
+                <h4 className="text-lg font-semibold text-blue-400 mb-4 text-center">
+                  {category.title}
+                </h4>
+                <div className="space-y-3">
+                  {category.skills.map((skill, skillIndex) => (
+                    <div
+                      key={skillIndex}
+                      className="bg-gray-600/30 rounded-md p-3 border border-gray-500/20 hover:bg-gray-600/50 transition-colors"
+                    >
+                      <span className="text-gray-300 text-sm font-medium">{skill}</span>
+                    </div>
+                  ))}
                 </div>
-              ))}
-            </div>
+              </div>
+            ))}
           </div>
         </div>
 
         {/* Key Achievements */}
-        <div className="mt-16">
+        <div>
           <h3 className="text-2xl font-semibold text-white text-center mb-8">
             Key Achievements
           </h3>
