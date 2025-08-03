@@ -69,7 +69,7 @@ const Contact = () => {
                   <div>
                     <div className="font-medium text-white">LinkedIn</div>
                     <a 
-                      href="#"
+                      href="https://www.linkedin.com/in/komal-joshi-03353320a/"
                       className="text-gray-400 hover:text-blue-400 transition-colors"
                     >
                       LinkedIn Profile
@@ -92,13 +92,13 @@ const Contact = () => {
                   <span>Send Email</span>
                 </button>
                 
-                <button 
+{/*                 <button 
                   className="w-full border border-blue-500 text-blue-400 hover:bg-blue-600/10 py-3 px-6 rounded-lg font-medium transition-colors flex items-center justify-center space-x-2"
                   onClick={() => window.open('tel:+353894145256')}
                 >
                   <Phone size={20} />
                   <span>Call Now</span>
-                </button>
+                </button> */}
               </div>
 
               <div className="mt-8 pt-6 border-t border-gray-700/50">
