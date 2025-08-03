@@ -1,7 +1,10 @@
+import { TrendingUp, Database, BarChart } from 'lucide-react';
+
 const About = () => {
   const expertiseCategories = [
     {
       title: "Sales & Business Development",
+      icon: TrendingUp,
       skills: [
         'B2B Sales Outreach',
         'Cold Calling & Demo Scheduling', 
@@ -15,6 +18,7 @@ const About = () => {
     },
     {
       title: "CRM & Technology",
+      icon: Database,
       skills: [
         'Salesforce CRM',
         'HubSpot CRM', 
@@ -25,6 +29,7 @@ const About = () => {
     },
     {
       title: "Analytics & Strategy",
+      icon: BarChart,
       skills: [
         'Sales Forecasting',
         'Sales Metrics Analysis',
@@ -37,12 +42,6 @@ const About = () => {
   return (
     <section id="about" className="py-20 bg-gray-800">
       <div className="container mx-auto px-6">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            About Me
-          </h2>
-          <div className="w-20 h-1 bg-blue-500 mx-auto mb-8"></div>
-        </div>
 
         {/* Areas of Expertise by Category */}
         <div className="max-w-6xl mx-auto mb-16">
@@ -54,7 +53,7 @@ const About = () => {
               <div key={index} className="group bg-gradient-to-br from-gray-700/60 to-gray-800/40 backdrop-blur-sm rounded-xl p-6 border border-gray-600/30 hover:border-blue-400/50 transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/10 hover:-translate-y-1">
                 <div className="text-center mb-6">
                   <div className="w-12 h-12 bg-blue-500/20 rounded-xl flex items-center justify-center mx-auto mb-3 group-hover:bg-blue-500/30 transition-colors">
-                    <div className="w-6 h-6 bg-blue-400 rounded-md"></div>
+                    <category.icon className="w-6 h-6 text-blue-400" />
                   </div>
                   <h4 className="text-lg font-semibold text-blue-400 group-hover:text-blue-300 transition-colors">
                     {category.title}
