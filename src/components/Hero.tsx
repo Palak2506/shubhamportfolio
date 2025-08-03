@@ -45,7 +45,7 @@ const Hero = () => {
           <div className="mb-8 flex justify-center">
             <div className="relative">
               <img
-                src={profileImage}
+                src="/lovable-uploads/a1dff4b4-00c0-41aa-bc78-9ccb27c3516f.png"
                 alt="Komal Joshi"
                 className="w-48 h-48 rounded-full border-4 border-white/20 shadow-xl object-cover"
               />
@@ -73,12 +73,6 @@ const Hero = () => {
               className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-medium transition-colors"
             >
               View My Work
-            </button>
-            <button
-              onClick={() => scrollToSection('contact')}
-              className="border border-white/30 text-white hover:bg-white/10 px-8 py-3 rounded-lg font-medium transition-colors"
-            >
-              Get In Touch
             </button>
           </div>
 

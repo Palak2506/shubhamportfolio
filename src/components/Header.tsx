@@ -44,7 +44,7 @@ const Header = () => {
             <a href="tel:+353894145256" className="text-gray-400 hover:text-blue-400 transition-colors">
               <Phone size={20} />
             </a>
-            <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors">
+            <a href="https://www.linkedin.com/in/komal-joshi-03353320a/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition-colors">
               <Linkedin size={20} />
             </a>
           </div>
@@ -78,10 +78,7 @@ const Header = () => {
                 <a href="mailto:komaljoshi2000@outlook.com" className="text-gray-400 hover:text-blue-400 transition-colors">
                   <Mail size={20} />
                 </a>
-                <a href="tel:+353894145256" className="text-gray-400 hover:text-blue-400 transition-colors">
-                  <Phone size={20} />
-                </a>
-                <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors">
+                <a href="https://www.linkedin.com/in/komal-joshi-03353320a/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition-colors">
                   <Linkedin size={20} />
                 </a>
               </div>
