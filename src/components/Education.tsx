@@ -89,28 +89,6 @@ const Education = () => {
           ))}
         </div>
 
-        {/* Additional Qualifications */}
-        <div className="mt-12 max-w-4xl mx-auto">
-          <div className="bg-gray-700/50 backdrop-blur-sm rounded-lg p-8 border border-gray-600/30">
-            <h3 className="text-xl font-bold text-white mb-6 text-center">
-              Professional Development
-            </h3>
-            <div className="grid md:grid-cols-3 gap-6">
-              <div className="text-center p-4 bg-blue-600/10 rounded-lg border border-blue-500/20">
-                <div className="text-lg font-semibold text-blue-400 mb-2">CRM Expertise</div>
-                <div className="text-sm text-gray-400">Salesforce, HubSpot, Zoho</div>
-              </div>
-              <div className="text-center p-4 bg-blue-600/10 rounded-lg border border-blue-500/20">
-                <div className="text-lg font-semibold text-blue-400 mb-2">Sales Methodology</div>
-                <div className="text-sm text-gray-400">BANT, ABM, Lead Qualification</div>
-              </div>
-              <div className="text-center p-4 bg-blue-600/10 rounded-lg border border-blue-500/20">
-                <div className="text-lg font-semibold text-blue-400 mb-2">Analytics & Reporting</div>
-                <div className="text-sm text-gray-400">Excel, Data Analysis, Forecasting</div>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );
