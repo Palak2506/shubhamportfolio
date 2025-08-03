@@ -74,6 +74,12 @@ const Hero = () => {
             >
               View My Work
             </button>
+            <button
+              onClick={() => scrollToSection('contact')}
+              className="border border-white/30 text-white hover:bg-white/10 px-8 py-3 rounded-lg font-medium transition-colors"
+            >
+              Get In Touch
+            </button>
           </div>
 
           <div className="flex items-center justify-center text-gray-400">

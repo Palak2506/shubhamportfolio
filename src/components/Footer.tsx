@@ -19,14 +19,9 @@ const Footer = () => {
               <Mail size={20} />
             </a>
             <a 
-              href="tel:+353894145256"
-              className="text-gray-400 hover:text-blue-400 transition-colors"
-              aria-label="Phone"
-            >
-              <Phone size={20} />
-            </a>
-            <a 
-              href="#"
+              href="https://www.linkedin.com/in/komal-joshi-03353320a/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-gray-400 hover:text-blue-400 transition-colors"
               aria-label="LinkedIn"
             >
