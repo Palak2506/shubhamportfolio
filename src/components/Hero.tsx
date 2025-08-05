@@ -47,7 +47,7 @@ const Hero = () => {
               <img
                 src="/lovable-uploads/a1dff4b4-00c0-41aa-bc78-9ccb27c3516f.png"
                 alt="Komal Joshi"
-                className="w-48 h-48 rounded-full border-4 border-white/20 shadow-xl object-cover object-center"
+                className="w-48 h-48 rounded-full border-4 border-white/20 shadow-xl object-cover object-top"
               />
               <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-blue-400/20 to-transparent"></div>
             </div>
