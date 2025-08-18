@@ -17,7 +17,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="min-h-screen flex items-center justify-center text-white relative overflow-hidden">
+    <section className="min-h-screen flex items-center justify-center text-white relative overflow-hidden pt-20">
       {/* Background Video */}
       <div className="absolute inset-0 w-full h-full">
         <video
