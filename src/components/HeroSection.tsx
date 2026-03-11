@@ -25,9 +25,9 @@ const HeroSection = () => {
             <div className="relative inline-block">
               <div className="w-48 h-48 mx-auto rounded-full overflow-hidden border-4 border-primary/20 shadow-2xl">
                 <img
-                  src="/shubham-img.jpg"
+                  src="/shubham-newupdated.jpeg"
                   alt="Shubham Alone"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover object-center"
                 />
               </div>
               <div className="absolute -inset-4 bg-primary/20 rounded-full blur-lg -z-10"></div>

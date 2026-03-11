@@ -44,9 +44,9 @@ const Hero = () => {
           <div className="mb-8 flex justify-center">
             <div className="relative">
               <img
-                src="/shubham-img.jpg"
+                src="/shubham-newupdated.jpeg"
                 alt="Shubham Alone"
-                className="w-48 h-48 rounded-full border-4 border-white/20 shadow-xl object-cover object-top"
+                className="w-48 h-48 rounded-full border-4 border-white/20 shadow-xl object-cover object-center"
               />
               <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-blue-400/20 to-transparent"></div>
             </div>
