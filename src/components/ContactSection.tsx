@@ -80,7 +80,7 @@ const ContactSection = () => {
                     <div>
                       <div className="font-medium text-card-foreground">LinkedIn</div>
                       <a 
-                        href="https://www.linkedin.com/in/komal-joshi-03353320a/"
+                        href="https://www.linkedin.com/in/shubham-alone-4297b11b8/"
                         className="text-muted-foreground hover:text-primary transition-colors"
                       >
                         LinkedIn Profile

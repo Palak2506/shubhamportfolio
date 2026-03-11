@@ -3,40 +3,42 @@ import { TrendingUp, Database, BarChart } from 'lucide-react';
 const About = () => {
   const expertiseCategories = [
     {
-      title: "Sales & Business Development",
+      title: "Operations & Quality",
       icon: TrendingUp,
       skills: [
-        'B2B Sales Outreach',
-        'Cold Calling & Demo Scheduling', 
-        'Lead Qualification (BANT)',
-        'Pipeline Management',
-        'Objection Handling',
-        'Negotiation Skills',
-        'Revenue Growth Contribution',
-        'Multichannel Outreach'
-      ]
+        "Manufacturing Operations",
+        "Production Planning & Scheduling",
+        "Quality Assurance & Control",
+        "Good Manufacturing Practices (GMP)",
+        "Root Cause Analysis & NCR Closure",
+        "KPI Monitoring & Improvement",
+        "Corrective & Preventive Actions (CAPA)",
+      ],
     },
     {
-      title: "CRM & Technology",
+      title: "Tools & Systems",
       icon: Database,
       skills: [
-        'Salesforce CRM',
-        'HubSpot CRM', 
-        'Zoho CRM',
-        'Excel & Data Accuracy',
-        'KPI Execution'
-      ]
+        "SAP MM (Procurement & Inventory)",
+        "Excel & Reporting",
+        "Documentation & Traceability",
+        "Thermal Boiler Assembly Processes",
+        "Defect Tracking Dashboards",
+      ],
     },
     {
-      title: "Analytics & Strategy",
+      title: "Professional Strengths",
       icon: BarChart,
       skills: [
-        'Sales Forecasting',
-        'Sales Metrics Analysis',
-        'Research & Market Analysis',
-        'Client Engagement & Management'
-      ]
-    }
+        "Six Sigma Mindset",
+        "Stakeholder Management",
+        "Leadership & Team Collaboration",
+        "Client-Centric Service Delivery",
+        "Problem Solving & Decision Making",
+        "Business Administration",
+        "KPI–Customer Driven Approach",
+      ],
+    },
   ];
 
   return (
@@ -77,25 +79,32 @@ const About = () => {
         {/* Key Achievements */}
         <div>
           <h3 className="text-2xl font-semibold text-white text-center mb-8">
-            Key Achievements
+            Key Achievements &amp; Projects
           </h3>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="bg-gray-700/50 backdrop-blur-sm rounded-lg p-6 text-center border border-gray-600/30 hover:border-blue-400/50 transition-colors">
-              <div className="text-3xl font-bold text-blue-400 mb-2">€750K+</div>
-              <div className="text-sm font-medium text-white mb-2">New Business Revenue</div>
-              <div className="text-xs text-gray-400">Generated through BANT-qualified prospecting</div>
+              <div className="text-3xl font-bold text-blue-400 mb-2">20%</div>
+              <div className="text-sm font-medium text-white mb-2">Line Performance Improvement</div>
+              <div className="text-xs text-gray-400">
+                Achieved by removing bottlenecks and driving shop-floor quality operations for a
+                14-person team.
+              </div>
             </div>
             
             <div className="bg-gray-700/50 backdrop-blur-sm rounded-lg p-6 text-center border border-gray-600/30 hover:border-blue-400/50 transition-colors">
-              <div className="text-3xl font-bold text-blue-400 mb-2">30%</div>
-              <div className="text-sm font-medium text-white mb-2">Lead-to-Meeting Rate</div>
-              <div className="text-xs text-gray-400">First BDR to achieve this milestone</div>
+              <div className="text-3xl font-bold text-blue-400 mb-2">12%</div>
+              <div className="text-sm font-medium text-white mb-2">Reduction in Repeat NCRs</div>
+              <div className="text-xs text-gray-400">
+                Closed 3–4 NCRs monthly with updated work instructions and root-cause investigations.
+              </div>
             </div>
             
             <div className="bg-gray-700/50 backdrop-blur-sm rounded-lg p-6 text-center border border-gray-600/30 hover:border-blue-400/50 transition-colors">
-              <div className="text-3xl font-bold text-blue-400 mb-2">22%</div>
-              <div className="text-sm font-medium text-white mb-2">YoY Sales Growth</div>
-              <div className="text-xs text-gray-400">Contributing to company expansion</div>
+              <div className="text-3xl font-bold text-blue-400 mb-2">10h+</div>
+              <div className="text-sm font-medium text-white mb-2">Weekly Time Saved</div>
+              <div className="text-xs text-gray-400">
+                Automated defect tracking and reporting dashboards, reducing manual reporting time.
+              </div>
             </div>
           </div>
         </div>

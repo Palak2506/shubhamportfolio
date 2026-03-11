@@ -17,7 +17,7 @@ const Header = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="text-xl font-bold text-white">
-            Komal Joshi
+            Shubham Alone
           </div>
 
           {/* Desktop Navigation */}
@@ -38,13 +38,13 @@ const Header = () => {
 
           {/* Contact Icons */}
           <div className="hidden md:flex items-center space-x-4">
-            <a href="mailto:komaljoshi2000@outlook.com" className="text-gray-400 hover:text-blue-400 transition-colors">
+            <a href="mailto:shubham.alone7799@gmail.com" className="text-gray-400 hover:text-blue-400 transition-colors">
               <Mail size={20} />
             </a>
-            <a href="tel:+353894145256" className="text-gray-400 hover:text-blue-400 transition-colors">
+            <a href="tel:+353892301595" className="text-gray-400 hover:text-blue-400 transition-colors">
               <Phone size={20} />
             </a>
-            <a href="https://www.linkedin.com/in/komal-joshi-03353320a/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition-colors">
+            <a href="https://www.linkedin.com/in/shubham-alone-4297b11b8/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition-colors">
               <Linkedin size={20} />
             </a>
           </div>
@@ -75,10 +75,10 @@ const Header = () => {
                 Contact
               </button>
               <div className="flex items-center space-x-4 pt-3">
-                <a href="mailto:komaljoshi2000@outlook.com" className="text-gray-400 hover:text-blue-400 transition-colors">
+                <a href="mailto:shubham.alone7799@gmail.com" className="text-gray-400 hover:text-blue-400 transition-colors">
                   <Mail size={20} />
                 </a>
-                <a href="https://www.linkedin.com/in/komal-joshi-03353320a/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition-colors">
+                <a href="https://www.linkedin.com/in/shubham-alone-4297b11b8/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition-colors">
                   <Linkedin size={20} />
                 </a>
               </div>

@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import profileImage from "@/assets/komal-profile.jpg";
 
 const HeroSection = () => {
   const scrollToSection = (sectionId: string) => {
@@ -26,8 +25,8 @@ const HeroSection = () => {
             <div className="relative inline-block">
               <div className="w-48 h-48 mx-auto rounded-full overflow-hidden border-4 border-primary/20 shadow-2xl">
                 <img
-                  src={profileImage}
-                  alt="Komal Joshi"
+                  src="/shubham-img.jpg"
+                  alt="Shubham Alone"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -37,17 +36,19 @@ const HeroSection = () => {
 
           {/* Main Content */}
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-            Komal Joshi
+            Shubham Alone
           </h1>
           
           <h2 className="text-xl md:text-2xl font-medium text-primary mb-8">
-            Business Development Representative
+            Operations &amp; Quality Engineer
           </h2>
           
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-12 leading-relaxed">
-            Result Driven Business Development Representative with 2+ years' success in B2B sales, 
-            lead conversion, and revenue generation. Orchestrated €750K+ new business through strategic, 
-            multichannel prospecting and stakeholder engagement across multiple industries.
+            Strategic Operations &amp; Quality professional with 1.5 years&apos; experience in
+            manufacturing operations, production planning, and quality delivery in target-driven
+            environments. Strong cross-functional coordination, stakeholder communication, and a
+            detail-focused approach supported by Supply Chain Management certification and SAP MM
+            training.
           </p>
 
           {/* CTA Buttons */}
@@ -74,7 +75,7 @@ const HeroSection = () => {
             <svg className="w-5 h-5 mr-2 text-primary" fill="currentColor" viewBox="0 0 20 20">
               <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
             </svg>
-            <span className="text-lg">Dublin, Ireland</span>
+            <span className="text-lg">Ireland</span>
           </div>
         </div>
 

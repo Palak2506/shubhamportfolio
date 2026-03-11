@@ -1,5 +1,4 @@
 import { ArrowDown } from 'lucide-react';
-import profileImage from '@/assets/komal-profile.jpg';
 
 const Hero = () => {
   const scrollToAbout = () => {
@@ -45,8 +44,8 @@ const Hero = () => {
           <div className="mb-8 flex justify-center">
             <div className="relative">
               <img
-                src="/lovable-uploads/a1dff4b4-00c0-41aa-bc78-9ccb27c3516f.png"
-                alt="Komal Joshi"
+                src="/shubham-img.jpg"
+                alt="Shubham Alone"
                 className="w-48 h-48 rounded-full border-4 border-white/20 shadow-xl object-cover object-top"
               />
               <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-blue-400/20 to-transparent"></div>
@@ -54,17 +53,20 @@ const Hero = () => {
           </div>
 
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white via-blue-200 to-blue-400 bg-clip-text text-transparent">
-            Komal Joshi
+            Shubham Alone
           </h1>
 
           <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
-            Business Development Representative
+            Operations &amp; Quality Engineer
           </p>
 
           <p className="text-lg text-gray-400 mb-12 max-w-4xl mx-auto leading-relaxed">
-            Result Driven Business Development Representative with 2+ years' success in B2B sales, 
-            lead conversion, and revenue generation. Orchestrated €750K+ new business through strategic, 
-            multichannel prospecting and stakeholder engagement across multiple industries.
+            Strategic Operations &amp; Quality professional with 1.5 years&apos; experience in
+            manufacturing operations, production planning, and quality delivery in target-driven
+            environments. Experienced in leading cross-functional teams, improving KPIs, and
+            driving corrective actions to remove bottlenecks and improve flow. Coursera certified
+            in Supply Chain Management with SAP MM training, with a strong, detail-focused and
+            stakeholder-centric approach.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
@@ -86,7 +88,7 @@ const Hero = () => {
             <svg className="w-5 h-5 mr-2 text-red-500" fill="currentColor" viewBox="0 0 20 20">
               <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
             </svg>
-            <span className="text-lg">Dublin, Ireland</span>
+            <span className="text-lg">Ireland</span>
           </div>
         </div>
 

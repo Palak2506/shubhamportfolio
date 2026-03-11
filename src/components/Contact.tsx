@@ -10,8 +10,9 @@ const Contact = () => {
           </h2>
           <div className="w-20 h-1 bg-blue-500 mx-auto mb-8"></div>
           <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-            Ready to drive revenue growth and exceed your sales targets? 
-            Let's discuss how my expertise in B2B sales and lead generation can benefit your organization.
+            Looking to strengthen your manufacturing operations, production planning, or quality
+            performance? Let&apos;s discuss how my experience in operations, quality, and KPI-driven
+            delivery can support your organization.
           </p>
         </div>
 
@@ -29,10 +30,10 @@ const Contact = () => {
                   <div>
                     <div className="font-medium text-white">Email</div>
                     <a 
-                      href="mailto:komaljoshi2000@outlook.com"
+                      href="mailto:shubham.alone7799@gmail.com"
                       className="text-gray-400 hover:text-blue-400 transition-colors"
                     >
-                      komaljoshi2000@outlook.com
+                      shubham.alone7799@gmail.com
                     </a>
                   </div>
                 </div>
@@ -44,10 +45,10 @@ const Contact = () => {
                   <div>
                     <div className="font-medium text-white">Phone</div>
                     <a 
-                      href="tel:+353894145256"
+                      href="tel:+353892301595"
                       className="text-gray-400 hover:text-blue-400 transition-colors"
                     >
-                      +353 894145256
+                      +353 89 2301595
                     </a>
                   </div>
                 </div>
@@ -58,7 +59,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <div className="font-medium text-white">Location</div>
-                    <div className="text-gray-400">Dublin, Ireland</div>
+                    <div className="text-gray-400">Ireland</div>
                   </div>
                 </div>
 
@@ -69,7 +70,7 @@ const Contact = () => {
                   <div>
                     <div className="font-medium text-white">LinkedIn</div>
                     <a 
-                      href="https://www.linkedin.com/in/komal-joshi-03353320a/"
+                      href="https://www.linkedin.com/in/shubham-alone-4297b11b8/"
                       className="text-gray-400 hover:text-blue-400 transition-colors"
                     >
                       LinkedIn Profile
@@ -86,7 +87,7 @@ const Contact = () => {
               <div className="space-y-4">
                 <button 
                   className="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 px-6 rounded-lg font-medium transition-colors flex items-center justify-center space-x-2"
-                  onClick={() => window.open('mailto:komaljoshi2000@outlook.com?subject=Business Opportunity - Let\'s Connect')}
+                  onClick={() => window.open('mailto:shubham.alone7799@gmail.com?subject=Operations & Quality Opportunity - Let\'s Connect')}
                 >
                   <Mail size={20} />
                   <span>Send Email</span>
@@ -106,10 +107,10 @@ const Contact = () => {
                   Open to opportunities in:
                 </div>
                 <div className="flex flex-wrap gap-2">
-                  <span className="px-3 py-1 bg-blue-600/20 text-blue-400 text-xs rounded-full border border-blue-500/20">B2B Sales</span>
-                  <span className="px-3 py-1 bg-blue-600/20 text-blue-400 text-xs rounded-full border border-blue-500/20">Business Development</span>
-                  <span className="px-3 py-1 bg-blue-600/20 text-blue-400 text-xs rounded-full border border-blue-500/20">Account Management</span>
-                  <span className="px-3 py-1 bg-blue-600/20 text-blue-400 text-xs rounded-full border border-blue-500/20">Lead Generation</span>
+                  <span className="px-3 py-1 bg-blue-600/20 text-blue-400 text-xs rounded-full border border-blue-500/20">Operations Engineering</span>
+                  <span className="px-3 py-1 bg-blue-600/20 text-blue-400 text-xs rounded-full border border-blue-500/20">Quality Engineering</span>
+                  <span className="px-3 py-1 bg-blue-600/20 text-blue-400 text-xs rounded-full border border-blue-500/20">Manufacturing & Production</span>
+                  <span className="px-3 py-1 bg-blue-600/20 text-blue-400 text-xs rounded-full border border-blue-500/20">Supply Chain & SAP MM</span>
                 </div>
               </div>
             </div>
@@ -124,7 +125,7 @@ const Contact = () => {
               </span>
             </div>
             <p className="text-sm text-gray-400 mt-2">
-              Ready to start immediately and contribute to your team's success
+              Ready to contribute to continuous improvement, quality delivery, and operational excellence.
             </p>
           </div>
         </div>

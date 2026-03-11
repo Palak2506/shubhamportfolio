@@ -6,20 +6,20 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="mb-6 md:mb-0">
-            <h3 className="text-xl font-bold text-white mb-2">Komal Joshi</h3>
-            <p className="text-gray-400">Business Development Representative</p>
+            <h3 className="text-xl font-bold text-white mb-2">Shubham Alone</h3>
+            <p className="text-gray-400">Operations &amp; Quality Engineer</p>
           </div>
           
           <div className="flex items-center space-x-6">
             <a 
-              href="mailto:komaljoshi2000@outlook.com"
+              href="mailto:shubham.alone7799@gmail.com"
               className="text-gray-400 hover:text-blue-400 transition-colors"
               aria-label="Email"
             >
               <Mail size={20} />
             </a>
             <a 
-              href="https://www.linkedin.com/in/komal-joshi-03353320a/"
+              href="https://www.linkedin.com/in/shubham-alone-4297b11b8/"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-blue-400 transition-colors"
               aria-label="LinkedIn"
@@ -31,7 +31,7 @@ const Footer = () => {
         
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-gray-500 text-sm">
-            © 2024 Komal Joshi. All rights reserved.
+            © 2026 Shubham Alone. All rights reserved.
           </p>
         </div>
       </div>

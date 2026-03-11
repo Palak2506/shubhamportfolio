@@ -41,7 +41,7 @@ const Navigation = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="text-xl font-bold text-primary">
-            Komal Joshi
+            Shubham Alone
           </div>
           
           <div className="hidden md:flex items-center space-x-8">
@@ -60,7 +60,7 @@ const Navigation = () => {
 
           <div className="flex items-center space-x-4">
             <a
-              href="mailto:komaljoshi2000@outlook.com"
+              href="mailto:shubham.alone7799@gmail.com"
               className="text-muted-foreground hover:text-primary transition-colors"
             >
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
@@ -77,7 +77,7 @@ const Navigation = () => {
               </svg>
             </a> */}
             <a
-              href="https://www.linkedin.com/in/komal-joshi-03353320a/"
+              href="https://www.linkedin.com/in/shubham-alone-4297b11b8/"
               className="text-muted-foreground hover:text-primary transition-colors"
             >
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">

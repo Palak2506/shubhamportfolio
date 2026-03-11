@@ -1,27 +1,19 @@
 const Education = () => {
   const education = [
     {
-      institution: "UCD Michael Smurfit Graduate Business School",
-      location: "Dublin, Ireland",
-      degree: "Masters in Biotechnology and Business",
-      grade: "2:1 Grade",
-      duration: "Sep 2023 – Aug 2024",
-      coursework: [
-        "Business Strategy",
-        "Corporate Finance", 
-        "Marketing",
-        "Biotech Teams",
-        "Feasibility Planning"
-      ],
-      type: "masters"
+      institution: "University of Galway",
+      location: "Ireland",
+      degree: "Master’s in International Management",
+      duration: "Sep 2024 – Sep 2025",
+      type: "masters",
     },
     {
-      institution: "KIT's College of Engineering (Autonomous)",
-      location: "Kolhapur, India",
-      degree: "BTech in Biotechnology Engineering",
-      duration: "Aug 2018 – July 2022",
-      type: "bachelors"
-    }
+      institution: "MIT World Peace University, Pune",
+      location: "Pune, India",
+      degree: "Bachelor of Technology – Mechanical",
+      duration: "Jun 2017 – Jun 2021",
+      type: "bachelors",
+    },
   ];
 
   return (
